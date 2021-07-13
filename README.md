@@ -5,6 +5,6 @@ In order to download the Ozeki.Libs.Rest library, firstly you have to install th
  $ r
  $install.packages("devtools")
  
- After you have installed the devtools, you can install the Ozeki.Libs.Rest library by using the install_github function:
+After you have installed the devtools, you can install the Ozeki.Libs.Rest library by using the install_github function:
  
  $ install_github('ozekisms/r-send-sms-http-rest-ozeki')
