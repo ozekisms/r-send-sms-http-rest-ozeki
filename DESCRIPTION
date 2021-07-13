@@ -1,0 +1,25 @@
+Package: Ozeki.Libs.Rest
+Type: Package
+Title: This is a package for the Ozeki SMS Gateway
+Version: 1.0.0
+Author: Zsolt Ardai
+Maintainer: Ozeki Systems Kft. <info@ozeki.hu>
+Description: With the ozekilibsrest package you can send, delete, mark and receive SMS messages.
+    In order to use it you have to import it into the header of your project.
+    With the Configuration class you can create a configuration instance, what contains the credentials for your http_user.
+    WIth the Message class you can create SMS messages, what you can send by using the Send method of the MessageApi class.
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Depends: 
+  uuid,
+  R6,
+  base64enc,
+  httr,
+  jsonlite
+Imports:
+  uuid,
+  R6,
+  base64enc,
+  httr,
+  jsonlite
