@@ -1,4 +1,4 @@
-# r-send-sms-http-rest-ozeki
+# Ozeki.Libs.Rest library for R
 
 In order to download the Ozeki.Libs.Rest library, firstly you have to install the devtools library with the following command:
 
