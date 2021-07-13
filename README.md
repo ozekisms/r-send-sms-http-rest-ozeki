@@ -10,7 +10,7 @@ Download: [Ozeki SMS Gateway download page](https://ozeki-sms-gateway.com/p_727-
 
 Tutorial: [R send sms sample and tutorial](https://ozeki-sms-gateway.com/p_876-r-send-sms-with-the-http-rest-api-code-sample.html)
 
-## How to send sms from R:
+# How to send sms from R:
 
 **To send sms from R**
 1. [Download Ozeki SMS Gateway](https://ozeki-sms-gateway.com/p_727-download-sms-gateway.html)
