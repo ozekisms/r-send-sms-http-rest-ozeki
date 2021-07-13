@@ -9,7 +9,6 @@ In order to download the Ozeki.Libs.Rest library, firstly you have to install th
 
 After you have installed the devtools, you can install the Ozeki.Libs.Rest library by using the install_github function:
 
-
 ```
  $ install_github('ozekisms/r-send-sms-http-rest-ozeki')
 ```
@@ -20,7 +19,7 @@ Include the freshly installed Ozeki.Libs.Rest library:
 library(Ozeki.Libs.Rest)
 ```
 
-First of all you have to create a configuration file by usign the Configuration class of the Ozeki.Libs.Rest library:
+First of all you have to create a configuration file by using the Configuration class of the Ozeki.Libs.Rest library:
 
 ```r
 configuration <- Ozeki.Libs.Rest::Configuration$new(
@@ -30,7 +29,7 @@ configuration <- Ozeki.Libs.Rest::Configuration$new(
 )
 ```
 
-Then you can create the message you want to send by creatign a Message instance:
+Then you can create the message you want to send by creating a Message instance:
 
 ```r
 msg <- Ozeki.Libs.Rest::Message$new()
@@ -38,7 +37,7 @@ msg$to_address <- "+36201111111"
 msg$text <- "Hello world!"
 ```
 
-After you have created the configuration, and the message objects, you can continue by creating a message api usign the MessageApi class of the Ozeki.Libs.Rest library.
+After you have created the configuration, and the message objects, you can continue by creating a message api using the MessageApi class of the Ozeki.Libs.Rest library.
 
 ```r
 api <- Ozeki.Libs.Rest::MessageApi$new(configuration)
