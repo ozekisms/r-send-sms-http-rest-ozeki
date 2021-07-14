@@ -15,4 +15,3 @@ api <- Ozeki.Libs.Rest::MessageApi$new(configuration)
 result <- api$delete(Ozeki.Libs.Rest::Folder$Inbox, msg)
 
 print(result)
-
