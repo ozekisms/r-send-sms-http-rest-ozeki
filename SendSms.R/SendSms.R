@@ -1,4 +1,3 @@
-#This is what happens if the repository gets updated.
 library(Ozeki.Libs.Rest)
 
 
