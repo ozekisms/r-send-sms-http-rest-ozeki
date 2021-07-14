@@ -16,5 +16,3 @@ print(result$to_string())
 for (message in result$messages) {
   print(message$to_string())
 }
-
-
