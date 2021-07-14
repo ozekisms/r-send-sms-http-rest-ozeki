@@ -16,7 +16,3 @@ api <- Ozeki.Libs.Rest::MessageApi$new(configuration)
 result <- api$send(msg)
 
 print(result$to_string())
-
-
-
-
